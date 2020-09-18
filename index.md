@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# About us UTN Córdoba
 
-You can use the [editor on GitHub](https://github.com/CentroDeComputos/adoptQuarkus/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+More than 10 years ago we started the journey to migrate our systems to a scalable platform and that's where Java entered in our plans.  
+We plan and develop a scalable, robust, secure infrastructure oriented to provide the ultimate experience for our users.  
+COVID-19 presents us new challenges in terms of agile and scalable development and it's where Quarkus helps us to carry it out.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Integration of Services  
+We integrate services of different types, where applications are combined.  
 
-### Markdown
+- Legacy Systems - IIS, our Autogestion 3  
+- Administrative and Academic Systems  
+- Government Integration  
+- Virtual Education - Moodle  
+- Help and management - Gitlab  
+- Payment Management  
+ -NAS - File Systems  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Why Quarkus
+We currently have a monolithic Java EE architecture with Jboss clusters for our Academic Management Systems that integrates various services provided by our Faculty. However integration and provide services sometimes become a chimera that grows without control and that's where microservices became a solution.  
+We have tried with the best microservices frameworks known on the market, such as Spring and Micronaut, but since we came from Jboss, Quarkus quickly opened the way for us to perform the decoupling in small modules that provides a specific service without sacrificing everything agreed and developed previously.  
+Times changes and we want to be cutting edge with technology like Quarkus.  
 
-# Header 1
-## Header 2
-### Header 3
+### The benefits of Quarkus
+The creators themselves can say it through their blog and guides (see reference), but we are one of those who DO, test and if it works as we wish, we take advantage and squeeze the tools to get his maximum potential. Only by developing and implementing it, we can verify real benefits.  
 
-- Bulleted
-- List
+If you comes from Jboss, Wildfly or Jakarta infrastructures, the adaptations in terms of services are very similar and the same in the case of the first 2. This gives us well known and proven technologies that have been built with solid foundation like MicroProfile. So the learning curve of it is exponential.  
 
-1. Numbered
-2. List
+The integration of dependencies, the deploy and hotreload of the applications makes Quarkus a unique experience for those of us who come from giant implementations of monolithic applications where deploying is a coherent bureaucracy but without practical sense.  
 
-**Bold** and _Italic_ and `Code` text
+Providing the development of native applications with GraalVM has its benefits and times of startup are incredible and unimaginable for an application written in Java.  
 
-[Link](url) and ![Image](src)
-```
+Being reactive, the responses of the systems are kept at the level that current applications need.  
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+With @QuarkusTest we can perform the Units and Integration Tests at the same time, simplifying the entire application testing process and the implementation of Profiles make the whole development process flow.  
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CentroDeComputos/adoptQuarkus/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Looking at the future
+Where are we ...well the separation of each specific component into microservices, becoming Reactive, implementing Functions as a Service and Serverless, and thinking of a global deployment infrastructure for our entire National Technological Faculty.
