@@ -37,7 +37,7 @@ With @QuarkusTest we can perform the Units and Integration Tests at the same tim
 
 
 ## Looking at the future
-*Where are we ...well the separation of each specific component into microservices, becoming Reactive, implementing Functions as a Service and Serverless, and thinking of a global deployment infrastructure for our entire **National Technological Faculty*.*
+*Where are we ...well the separation of each specific component into microservices, becoming Reactive, implementing Functions as a Service and Serverless, and thinking of a global deployment infrastructure for our entire **National Technological Faculty**.*
 
 ## More info at:
 [Centro de Cómputos UTNFRC](http://www.frc.utn.edu.ar/computos/)  
